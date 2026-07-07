@@ -48,3 +48,19 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Running Tests
+
+Backend tests are located in the top-level `tests/` directory and use `pytest`.
+
+Run all tests:
+
+```
+pytest -q
+```
+
+Run a specific test file:
+
+```
+pytest tests/test_signup.py -q
+```
